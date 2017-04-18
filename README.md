@@ -1,7 +1,7 @@
 # React 
 
-### React Starter
+### React Todo List
 
 > Initial Commit 
 
-Startup files with some modules to get started.
+A Todo list in React.  Soon to add API features. 
