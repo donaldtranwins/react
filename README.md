@@ -1,7 +1,7 @@
 # React 
 
-### React Starter
+### React Routing
 
-> Initial Commit 
+> MBoutique
 
-Startup files with some modules to get started.
+Refactoring the mBoutique website using react routing
