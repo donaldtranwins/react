@@ -1,16 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router';
+import NavLink from './nav_link';
 
 export default () => (
     <ul className="nav nav-tabs">
         <li className="nav-item">
-            <Link to="/" className="nav-link">Home</Link>
+            <NavLink to="/" name="Home" index="true"/>
         </li>
         <li className="nav-item">
-            <Link to="/about" className="nav-link">About</Link>
+            <NavLink to="/about" name="About"/>
         </li>
         <li className="nav-item">
-            <Link to="/blog" className="nav-link">Blog</Link>
+            <NavLink to="/articles" name="Articles"/>
         </li>
     </ul>
 );
