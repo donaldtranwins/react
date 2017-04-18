@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './app.css';
-import logo from './imgs/logo.svg';
+import Header from './header';
+
+const navLinks = ['Yummy','Delicious','Tasty'];
 
 const App = () => (
     <div>
-        <div className={styles.app}>
-            <img src={logo} className={styles.rotate}/>
-            <h1>Welcome to React!</h1>
-        </div>
+        <Header brandName="Cheez-Its are" links={navLinks}>
+            <div>hi</div>
+        </Header>
     </div>
 );
 
