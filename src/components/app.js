@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './header';
+import styles from './app.css';
+import logo from './imgs/logo.svg';
+import Nav from './nav'
 
-const navLinks = ['Yummy','Delicious','Tasty'];
-
-const App = () => (
-    <div>
-        <Header brandName="Cheez-Its are" links={navLinks}>
-            <div>hi</div>
-        </Header>
+const App = (props) => (
+    <div className="container">
+        <h1>Routing Demo</h1>
+        <Nav/>
+        {props.children}
     </div>
 );
 
