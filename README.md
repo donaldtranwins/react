@@ -2,6 +2,6 @@
 
 ### React Todo List
 
-> Initial Commit 
+> API 
 
-A Todo list in React.  Soon to add API features. 
+Add and Get from server using Axios. 
