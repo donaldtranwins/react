@@ -1,7 +1,7 @@
 # React 
 
-### React Starter
+### React Todo List
 
-> Initial Commit 
+> API 
 
-Startup files with some modules to get started.
+Add and Get from server using Axios. 
