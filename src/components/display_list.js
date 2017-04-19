@@ -7,9 +7,10 @@ class DisplayList extends React.Component {
 
     componentWillReceiveProps(nextProps){
         this.listItems = nextProps.todoList.map((item, index) => {
+            const {title} = item;
             return (
                 <li key={index} className="list-group-item">
-                    <div className="col-sm-10">{item}</div>
+                    <div className="col-sm-10">{title}</div>
                     <button onClick={ () => nextProps.handleDeleteItem(index) } className="btn btn-outline-danger col-sm-2">Delete</button>
                 </li>
             );
